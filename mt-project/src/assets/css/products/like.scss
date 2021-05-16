@@ -1,0 +1,29 @@
+.like-list{
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            margin-bottom: 20px;
+            img{
+                width: 170px
+            }
+            .title{
+                font-size: 14px;
+                line-height: 20px;
+                color: #222;
+                margin: 10px 0 4px;
+            }
+            .area{
+                font-size: 12px;
+                line-height: 17px;
+                color: #999;
+            }
+            .price{
+                font-size: 22px;
+                color: #f60;
+                line-height: 27px;   
+            }
+        }
+    }
+}
