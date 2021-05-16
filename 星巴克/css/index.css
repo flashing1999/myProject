@@ -1,0 +1,177 @@
+html {
+	font-size: 62.5% !important;    /* 取默认字体的百分比 */
+}
+@media (min-width: 992px){
+	html {
+		font-size: 62.5%;
+	}
+}
+@media (min-width: 768px){
+	html {
+		font-size: 59%;
+	}
+}
+@media (min-width: 576px){
+	html {
+		font-size: 56%
+	}
+}
+body{
+    overflow-y: scroll;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.container-fluid .leftContent{
+    left: 0;
+    top: 0;
+    padding: 0 15px;
+    width: 100%;
+}
+.container-fluid .leftContent header{
+    height: 80px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+.container-fluid .leftContent header ul li a{
+    font-size: 1.6rem;
+}
+.container-fluid .leftContent header .icon-caidan{
+    font-size: 3rem;
+    cursor: pointer;
+    color: #858585;
+}
+.container-fluid .leftContent .login{
+    height: calc(100vh - 80px);
+}
+@media (max-width: 991.8px){
+    .container-fluid .leftContent .login{
+        height: auto;
+    }
+    .leftContent{
+        position: relative!important;
+    }
+}
+.container-fluid .leftContent .login .icon-kafei{
+    font-size: 24px;
+    color: #67a4c7;
+}
+.container-fluid .leftContent .login a{
+    font-size: 1.6rem;
+    border-radius: 16px;
+}
+
+.leftContent .menu{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+    z-index: 999;
+    transition: .3s;
+}
+.leftContent .menu.show{
+    transform: scale(1);
+    opacity: 1;
+}
+.leftContent .menu.hide{
+    transform: scale(2);
+    opacity: 0;
+    z-index: -1;
+}
+.leftContent .menu .icon-guanbi{
+    cursor: pointer;
+}
+.leftContent .menu .list li,.leftContent .menu .font{
+    font-size: 1.6rem;
+}
+.leftContent .menu .register{
+    font-size: 1.6rem;
+    border-radius: 16px;
+}
+.leftContent .menu footer,
+.leftContent .menu footer a{
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 1.4rem;
+}
+.promotion div{
+    transform: translateY(0);
+    transition: .2s;
+}
+.promotion div:hover{
+    transform: translateY(-5px);
+}
+.club{
+    height: 250px;
+    box-sizing: border-box;
+}
+.club h2{
+    font-size: 2.2rem;
+}
+.club p{
+    line-height: 25.6px;
+    font-size: 16px;
+}
+.club p a{
+    color: #C2A661;
+}
+.club div button{
+    line-height: 25.6px;
+    font-size: 16px;
+    border-radius: 16px;
+}
+.betters h3{
+    font-size: 2.2rem;
+}
+.betters p{
+    font-size: 16px;
+}
+.betters img{
+    width: 60%;
+    margin-top: -28px;
+}
+.betters a{
+   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
+   transition: all .2s ease;
+}
+.betters a:hover{
+    box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.12);
+    transform: translate3d(0,-4px,0);
+}
+.betters li p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.betters li .learnMore{
+    color: #C2A661;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+.license{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.license a{
+    color: #666;
+}
+.footer{
+    height: 55px;
+}
+.footer ul{
+    height: 100%;
+}
+.footer ul li a{
+    height: 100%;
+    font-size: 1.2rem;
+    color: rgba(0,0,0,0.56);
+}
+.footer ul li a .iconfont{
+    font-size: 2.2rem;
+}
